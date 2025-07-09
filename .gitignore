@@ -1,0 +1,151 @@
+# ========================================
+# Azure OpenAI Stored Completions Project
+# ========================================
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.conda/
+conda-env/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+config.json
+secrets.json
+credentials.json
+
+# Azure Specific
+.azure/
+azure.yaml.bak
+*.azd/
+.azd/
+
+# API Keys & Authentication
+*.key
+*.pem
+*.crt
+*.cer
+*.p12
+*.pfx
+api_keys.txt
+auth_config.json
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.sublime-*
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs & Debug
+*.log
+logs/
+debug.log
+error.log
+access.log
+
+# Distribution & Packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing & Coverage
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+htmlcov/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Documentation
+docs/_build/
+site/
+
+# Data & Model Files (if applicable)
+data/
+models/
+*.csv
+*.json
+*.parquet
+*.pickle
+*.pkl
+*.h5
+*.hdf5
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Notebook Output (optional - uncomment if you don't want to track outputs)
+# *.ipynb
+
+# Local Configuration
+local_settings.py
+instance/
+.webassets-cache
+
+# PyCharm
+.idea/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
